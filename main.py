@@ -11,7 +11,7 @@ cdhit_max_seq_name_len = 19  # The maximum length of sequence names cd-hit displ
 class AnalyzerPipeline: 
     def __init__(self, fa_file, out_dir_path, rep_redio_cutoff = 0.5, rep_count_cutoff = 10, \
                  len_cutoff = 5000, k_mer_size = 11, hpc = False, clustering_idn_cutoff = 0.9,
-                 rep_idn = 0.85, cluster_size_cutoff = 10, thread_num = 4, mono_tem_file = None):
+                 rep_idn = 0.85, cluster_size_cutoff = 5, thread_num = 4, mono_tem_file = None):
         self.fa_file = fa_file
         self.rep_redio_cutoff = rep_redio_cutoff
         self.out_dir_path = out_dir_path
