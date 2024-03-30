@@ -293,7 +293,7 @@ def get_parameters():
                         help = 'It is the redio cutoff of non-unique k-mer, sequences greater than this value are considered potential repeat sequences (default = 0.5).')
 
     parser.add_argument('-p', '--close-hpc', action = "store_true", 
-                        help = 'It is the bool flag, when it appears, homopolymer compression technology will not be applied (default = True).')
+                        help = 'It is the bool flag, when it appears, homopolymer compression technology will not be applied (default = False).')
 
     parser.add_argument('-s', '--cluster-size-cutoff', type = int, required = False, default = 5,
                         help = 'It is the size cutoff, the clusters which size larger this values are used to inferred repeats (default = 5).')
