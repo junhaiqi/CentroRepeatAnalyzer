@@ -1,6 +1,6 @@
 
 ## Overview of CentroRepeatAnalyzer
-CentroRepeatAnalyzer is a pipeline based on [centroAnno](https://github.com/junhaiqi/CentroRepeatAnalyzer.git), which can directly analyze repeats and higher-order tandem repeat (HOR) structures of centromere regions from noisy sequencing data.
+CentroRepeatAnalyzer is a pipeline based on [centroAnno](https://github.com/junhaiqi/centroAnno.git), which can directly analyze repeats and higher-order tandem repeat (HOR) structures of centromere regions from noisy sequencing data.
 ## Table of contents
 
   * [Requirements](#requirements)
@@ -23,7 +23,7 @@ CentroRepeatAnalyzer runs Linux and only requires a few python packages, such as
 git clone https://github.com/junhaiqi/CentroRepeatAnalyzer.git
 pip install numpy pyfastx tqdm
 ```
-We provide some required executable files, they are in "bin". If they cannot be used, users can download the required software packages ( [centroAnno](https://github.com/junhaiqi/CentroRepeatAnalyzer.git), [cd-hit](https://github.com/weizhongli/cdhit.git) ) and compile them to get the corresponding executable files and put them in the "bin".
+We provide some required executable files, they are in "bin". If they cannot be used, users can download the required software packages ( [centroAnno](https://github.com/junhaiqi/centroAnno.git), [cd-hit](https://github.com/weizhongli/cdhit.git) ) and compile them to get the corresponding executable files and put them in the "bin".
 
 
 
