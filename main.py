@@ -231,7 +231,7 @@ class AnalyzerPipeline:
                 pass
         _file.close()
 
-    def get_centromeric_loss(slef, true_len = 171, now_len = 345):
+    def get_centromeric_loss(self, true_len = 171, now_len = 345):
         if now_len / true_len > 0.9:
             p1 = (now_len / true_len) - int(now_len / true_len)
             loss = min( abs(1-p1), p1 )
